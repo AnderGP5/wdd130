@@ -1,5 +1,7 @@
 :root {
     --primary-color: #264653;
+    --heading-font: "Times New Roman", "Georgia", serif;
+    --body-font: Arial, Helvetica, sans-serif;
 }
 
 * {
@@ -13,7 +15,7 @@ header {
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--body-font);
     color: var(--primary-color);
 }
 
@@ -26,7 +28,7 @@ footer {
 
 h1,
 h2 {
-    font-family: "Times New Roman", "Georgia", serif;
+    font-family: var(--heading-font);
     color: var(--primary-color);
 }
 
@@ -61,6 +63,10 @@ article {
     text-decoration: none;
 }
 
+.socialmedia img {
+    width: 80px;
+}
+
 .hero {
     position: relative;
 }
@@ -91,4 +97,5 @@ article {
 .hero article img {
     float: right;
     width: 80px;
+    box-shadow: 0 0 10px black;
 }

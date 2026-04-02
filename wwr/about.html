@@ -14,10 +14,12 @@
 </head>
 
 <body>
-    <header>
-        <img src="images/logo.png" alt="Splash! Logo">
+    <header class="navbar">
+        <div class="logo">
+            <img src="images/logo.png" alt="Splash! Logo">
+        </div>
         <nav>
-            <ul>
+            <ul class="nav-links">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About Us</a></li>
                 <li><a href="trips.html">Trips</a></li>
@@ -36,19 +38,51 @@
                     provident vel corrupti beatae, mollitia et totam.</p>
             </article>
         </div>
-        <section>
+        <section class="history-section">
             <h2>History</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore vero debitis aut,
-                numquam odio repellendus architecto eos possimus alias accusamus cumque ab iste
-                dolores similique provident voluptas. Sequi, praesentium perspiciatis!</p>
+            <div class="history-content">
+                <p class="text-column">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Dolore vero debitis aut,
+                    numquam odio repellendus architecto eos possimus alias accusamus cumque ab iste
+                    dolores similique provident voluptas. Sequi, praesentium perspiciatis!</p>
+                <div class="image-column">
+                    <img src="images/history.jpg" alt="Group of people celebrating">
+                </div>
+                <p class="text-column">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Dolore vero debitis aut,
+                    numquam odio repellendus architecto eos possimus alias accusamus cumque ab iste
+                    dolores similique provident voluptas. Sequi, praesentium perspiciatis!</p>
+            </div>
         </section>
-        <section>
+        <section class="adventure-section">
             <h2>Adventure Awaits You!</h2>
+            <div class="gallery-container">
+                <figure class="card">
+                    <img src="images/adventure1.jpg" alt="Los Dientes del Diablo">
+                    <figcaption>Los Dientes del Diablo</figcaption>
+                </figure>
+                <figure class="card">
+                    <img src="images/adventure2.jpg" alt="Big Mallard">
+                    <figcaption>Big Mallard</figcaption>
+                </figure>
+                <figure class="card">
+                    <img src="images/adventure3.jpg" alt="Full Day Expedition">
+                    <figcaption>Full Day Expedition</figcaption>
+                </figure>
+                <figure class="card">
+                    <img src="images/adventure4.jpg" alt="Half Day Adventure">
+                    <figcaption>Half Day Adventure</figcaption>
+                </figure>
+                <figure class="card">
+                    <img src="images/adventure5.jpg" alt="White Water Thrills">
+                    <figcaption>White Water Thrills</figcaption>
+                </figure>
+            </div>
         </section>
     </main>
-    <footer>
-        <p>© 2026 | Splash Whitewater Rafting | Anderson González</p>
-        <nav class="socialmedia">
+    <footer class="footer-container">
+        <p class="copyright">&copy; 2026 | Splash Whitewater Rafting | Anderson González</p>
+        <nav class="socialmedia social-nav">
             <a href="https://facebook.com"><img src="images/facebook.svg" alt="Facebook Icon"></a>
             <a href="https://linkedin.com"><img src="images/linkedin.svg" alt="LinkedIn Icon"></a>
             <a href="https://instagram.com"><img src="images/instagram.svg"
